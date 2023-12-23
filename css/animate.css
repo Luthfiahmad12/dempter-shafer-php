@@ -1,0 +1,22 @@
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  
+  50% {
+    opacity: 1;
+  }
+}
+
+.warning-heading {
+  animation: fadeInOut 2s infinite;
+  animation-delay: 1s;
+}
+
+.warning-text {
+  font-weight: bold;
+  color: rgb(236, 236, 236);
+  opacity: 0; /* Mulai dengan opasitas 0 agar teks awalnya tersembunyi */
+  animation: fadeInOut 2s infinite;
+  animation-delay: 0.5 s;
+}
